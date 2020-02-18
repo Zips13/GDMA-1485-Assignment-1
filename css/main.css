@@ -58,14 +58,157 @@
         -o-box-sizing: border-box;
         -ms-box-sizing: border-box;
         box-sizing: border-box;
-    }
+        font-family: 'Open Sans', sans-serif;
+}
 
 
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
 
-/* -- FORMS -- */ 
+/* LISTS ------- */
+
+li {
+        display:inline-block;
+}
+
+ul {
+        word-spacing:35px;
+}
+
+
+#bg-green .wrapper {
+        text-align:center;
+}
+
+.col-features {
+        width:300px;
+}
+
+#features header {
+        text-align:center;
+}
+
+.col-features:first-child {
+        margin-right:135px;
+}
+
+#bg-white {
+        text-align:center;
+        width:930px;
+        margin:0 auto;
+        padding-top:102px;
+        padding-bottom:225px;
+}
+
+#contact footer {
+        width:253px;
+        color:#fff;
+        
+}
+
+#contact {
+        padding-top:100px;
+        padding-bottom:125px;
+        background-color:#1ea78d;
+        border-top:5px black solid;
+}
+
+hr {
+        width:240px;
+        background-color:#dce1e5;
+}
+
+/* TYPOGRAPHY ---------*/
+footer h4 {
+        font-family: 'Pacifico', cursive;
+}
+
+#bg-drkgreen, #bg-green {
+        color:#fff;
+}
+
+
+.green-txt {
+        color:#0eb493;
+        text-transform:uppercase;
+        font-weight:800;
+}
+
+b {
+        font-weight: 700;
+}
+
+h1 {
+        font-family: 'Pacifico', cursive;
+        color:#fff;
+}
+
+h1 span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight:300;
+        color:#587c79;
+        font-size:13px;
+}
+
+#bg-green {
+        font-weight:300;
+        line-height:0px;
+}
+
+#bg-green span {
+        color:#0fad79;
+}
+
+#bg-green  p:first-child {
+        font-size:60px;
+}
+
+#bg-green  p:nth-child(2) {
+        font-size:48px;
+}
+
+#bg-green  p:last-child, #bg-white p {
+        font-size:18px;
+}
+
+#bg-green p:last-child {
+        line-height:20px;
+}
+
+#bg-green p:last-child span {
+        height:1px;
+        width:28px;
+        background-color:#0feb9e;
+        display:inline-block;
+        margin-bottom:5px;
+        margin-left: 30px;
+        margin-right:30px;
+}
+
+#bg-white p {
+        font-weight:600;
+        line-height:25px;
+}
+
+h1, #green-text, h4 {
+        font-size:28px;
+}
+
+nav, .col-features p, footer p{
+        font-size:13px;
+        line-height:20px;
+}
+
+h3 {
+        font-weight:600;
+        font-size:20px;
+}
+
+a, a:visited {
+        color:white;
+        text-decoration:none;
+}
 
 
 /*--------------------------------------------------------------
@@ -81,4 +224,40 @@
 /*--------------------------------------------------------------
 7.0 UTILITIES
 -------------------------------------------------------------- */
+.wrapper{
+        width:1170px;
+        margin:0 auto;
+}
 
+.row {
+        overflow:auto;
+}
+
+#bg-drkgreen {
+        background-color:#10443f;
+        padding-top:20px;
+}
+
+#bg-green {
+        background-color:#104f41;
+        padding-top:396px;
+        padding-bottom:183px;
+}
+
+#features {
+        background-color:#f4f7f9;
+        padding-top:75px;
+        padding-bottom:143px;
+}
+
+#bg-drkblue {
+        background-color:#062033;
+}
+
+.flt-left {
+        float:left;
+}
+
+.flt-right {
+        float:right;
+}
