@@ -77,9 +77,7 @@ ul {
 }
 
 
-#bg-green .wrapper {
-        text-align:center;
-}
+
 
 .col-features {
         width:300px;
@@ -124,9 +122,7 @@ footer h4 {
         font-family: 'Pacifico', cursive;
 }
 
-#bg-drkgreen, #bg-green {
-        color:#fff;
-}
+
 
 
 .green-txt {
@@ -156,9 +152,7 @@ h1 span {
         line-height:0px;
 }
 
-#bg-green span {
-        color:#0fad79;
-}
+
 
 #bg-green  p:first-child {
         font-size:60px;
@@ -195,10 +189,7 @@ h1, #green-text, h4 {
         font-size:28px;
 }
 
-nav, .col-features p, footer p{
-        font-size:13px;
-        line-height:20px;
-}
+
 
 h3 {
         font-weight:600;
@@ -221,9 +212,21 @@ a, a:visited {
 -------------------------------------------------------------- */
 
 
+/* NAV ------- */
+
+nav, .col-features p, footer p{
+        font-size:13px;
+        line-height:20px;
+}
+
+
 /*--------------------------------------------------------------
 7.0 UTILITIES
 -------------------------------------------------------------- */
+
+
+/* ALIGNMENT ------ */
+
 .wrapper{
         width:1170px;
         margin:0 auto;
@@ -233,9 +236,38 @@ a, a:visited {
         overflow:auto;
 }
 
-#bg-drkgreen {
-        background-color:#10443f;
-        padding-top:20px;
+.flt-left {
+        float:left;
+}
+
+.flt-right {
+        float:right;
+}
+
+#bg-green .wrapper {
+        text-align:center;
+}
+
+
+
+#features {
+        background-color:#f4f7f9;
+        padding-top:75px;
+        padding-bottom:143px;
+}
+
+
+
+
+
+/* COLOR -------- */
+
+#bg-drkgreen, #bg-green {
+        color:#fff;
+}
+
+#bg-drkblue {
+        background-color:#062033;
 }
 
 #bg-green {
@@ -244,20 +276,11 @@ a, a:visited {
         padding-bottom:183px;
 }
 
-#features {
-        background-color:#f4f7f9;
-        padding-top:75px;
-        padding-bottom:143px;
+#bg-drkgreen {
+        background-color:#10443f;
+        padding-top:20px;
 }
 
-#bg-drkblue {
-        background-color:#062033;
-}
-
-.flt-left {
-        float:left;
-}
-
-.flt-right {
-        float:right;
+#bg-green span {
+        color:#0fad79;
 }
